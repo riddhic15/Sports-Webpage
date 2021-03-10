@@ -1,0 +1,104 @@
+#Main-Heading{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 100px;
+    color: rgb(92, 28, 48);
+    font-style:initial;
+    font-weight: 1000;
+    
+    clear: both;
+    margin-top: 25px;
+    }
+     nav{
+        height:100px;
+        background-color: cornsilk;
+        width:100%;
+        
+    }
+    nav ul{
+        float: right;
+        
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
+        line-height:40px ;
+        
+    }
+    nav ul li a{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-decoration:none;
+    }
+    
+    header img{
+        height: 100px;
+        border-radius:50%;
+        position: absolute;
+    }
+
+    body{
+      
+        background: linear-gradient(to top left,#ccffcc 0%,#b33a76 100%);
+    }
+
+    /* footer nav ul{
+        position: fixed;
+        float: right;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+    footer nav ul li{
+        color: darkred;
+        display: inline-block;
+        padding: 20px 20px 20px 20px;
+        line-height:30px ;
+
+        border: darkmagenta;
+    }
+    nav ul li a{
+        text-transform: uppercase;
+        text-decoration: navy;
+    } */
+    
+  
+    
+    
+    /* div table{
+        margin-left: 60px;
+        border: darkcyan;
+    } */
+    
+
+    #copyright{
+        float: left;    
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    footer nav{
+        margin-top: 100px;
+    }
+    table th{
+        color: rgb(200, 226, 139);
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    table caption{
+        font-size: 75px;;
+    }
+    
+    table,th,tr,td{
+        border:1px solid black;
+       border-collapse: separate;
+        margin-left: 50px;
+        font-family: cursive;
+        margin-right: 50px;
+        color: rgb(58, 46, 47);
+        text-align: center;
+        font-size:x-large;
+        border-color: rgb(129, 124, 54);
+        border-style:groove;
+        border-top-color: rgb(4, 216, 219);
+        background-image: linear-gradient(to top left,#e4b859 0%,#e297ad 100%);
+    }

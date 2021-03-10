@@ -1,0 +1,95 @@
+nav{
+    height:100px;
+    background-color: cornsilk;
+    width:100%;
+    
+}
+nav ul{
+    float: right;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    line-height:30px ;
+    
+}
+nav ul li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+header img{
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+}
+#Main-Heading{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 100px;
+    color: rgb(92, 28, 48);
+    font-style:initial;
+    font-weight: 1000;
+    
+    clear: both;
+    margin-top: 25px;
+    }
+body{
+  
+    background: linear-gradient(to top left,#ccffcc 0%,#b33a76 100%);
+}
+input ,textarea,radio{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(226, 210, 219);
+   color:  rgb(92, 28, 48);
+   font-weight: 800;
+}
+input[type=textarea]{
+    border-bottom: rgb(230, 22, 22);
+    background-color: rgb(226, 210, 219);
+    color:  rgb(92, 28, 48);
+    font-weight: 800;
+}
+input[type=submit]{
+    background-color: rgb(226, 210, 219);
+    font-size: large;
+    margin-bottom: 60px;
+    text-align: center;
+}
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  rgb(92, 28, 48);
+    font-size: large;
+    font-weight: 900;
+    text-align: left;
+    
+}
+#copyright{
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+/* footer ul li a{
+    font-size: 25px;
+    line-height: 25px;
+    color: rgb(175, 88, 171);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+   font-style: italic;
+   font-feature-settings: "vrt2";
+} */
+/* #footer{
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 87, 88);
+    margin-top: 40px;
+} */
+/* .links{
+    line-height: 30px;
+    margin-bottom:60px;
+    position: absolute;
+   float:right;
+} */
